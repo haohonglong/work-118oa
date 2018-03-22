@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+.ML5{margin-left: 5px;}
+.ML10{margin-left: 10px;}
+.ML20{margin-left: 20px;}
+.ML30{margin-left: 30px;}
+.MR10{margin-right: 10px;}
+.MB10{margin-bottom: 10px;}
+.MB15{margin-bottom: 15px;}
+.MB20{margin-bottom: 20px;}
+.MT25{margin-top: 25px;}
+.PL25{padding-left: 25px;}
+
+/*animation*/
+.animation-shake{
+    animation-delay: 4s;
+    animation-duration: 100ms;
+    animation-iteration-count: infinite;
+    animation-name: shake;
+    animation-timing-function: ease-in-out;
+}
+.animation-shake-slow{
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-name: verical-slow;
+    animation-timing-function: ease-in-out;
+}
+
+.none{display: none;}

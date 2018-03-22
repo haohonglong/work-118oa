@@ -1,0 +1,36 @@
+@import "animation.css";
+@import "global.css";
+
+body{
+    font-size: 14px;
+}
+/*.skin-blue .wrapper{background-color: transparent;}*/
+/*!*主体*!*/
+/*.fixed .content-wrapper, .fixed .right-side{*/
+    /*background-color: #f1f4ff;*/
+/*}*/
+
+.btn-logout{
+    position: absolute;
+    bottom: 0;
+    border-radius: 0;
+}
+/*数据表格*/
+.table tr th,
+.table tr td{font-size: 14px;}
+.grid-view .dataTable{margin-bottom: 30px!important;}
+.grid-view .dataTable td{white-space: inherit;}
+.grid-view .summary{float: left;}
+.grid-view .pagination{float: right;margin: 0;position: relative;top:-10px;}
+
+.font-blue{color: #0d6aad;}
+
+.table-account tbody .default{background-color:#fcf8e3; }
+.table-account tbody .success{background-color:#dff0d8; }
+.table-account tbody .warning{background-color:#f2dede; }
+
+.form-control.daterange{width: 200px;}
+
+
+
+
